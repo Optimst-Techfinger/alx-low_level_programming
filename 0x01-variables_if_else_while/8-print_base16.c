@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+
 /**
  * main - entry point
  *
@@ -9,7 +9,7 @@
 int main(void)
 {
 	unsigned char a = '0';
-	int i
+	int i;
 
 	for (i = 0; i < 10; i++)
 	{
