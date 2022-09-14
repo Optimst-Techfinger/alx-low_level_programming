@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - function
- * 
+ *
  * @n: The character to evaluate
  *
  * Return: Get 1 if c is positive,
