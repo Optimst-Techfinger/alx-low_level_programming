@@ -1,24 +1,13 @@
 #include "main.h"
-#include <ctype.h>
-
 /**
- * _isdigit - function that checks a digit
+ * mul - function
  *
- * @c: return int type
+ * @a: parameter 1
+ * @b: parameter 2
  *
- * Return: return 0 on success and 1 on fail
+ * Return: return value
  */
-
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	int i = isdigit(c);
-
-	if (i > 0)
-	}
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	return (a * b);
 }
