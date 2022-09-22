@@ -18,7 +18,7 @@ char *leet(char *s)
 		for (y = 0; y < 5; y++)
 		{
 			uc = lc[y] - 32;
-			if (s[x] == lc[x] == uc)
+			if (s[x] == lc[x] || s[x] == uc)
 			{
 				s[x] = code[y] + 48;
 			}
