@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * let - encodes a string in 1337
+ * leet - encodes a string in 1337
  *
  * @s: string to be encoded
- *
- * Return: the resulting string;
- */
+ * *
+ * * Return: the resulting string;
+ * */
 
 char *leet(char *s)
 {
@@ -18,7 +18,7 @@ char *leet(char *s)
 		for (y = 0; y < 5; y++)
 		{
 			uc = lc[y] - 32;
-			if (s[x] == lc[x] || s[x] == uc)
+			if (s[x] == lc[y] || s[x] == uc)
 			{
 				s[x] = code[y] + 48;
 			}
