@@ -12,7 +12,7 @@ char *leet(char *s)
 	int x = 0, y, uc = 0;
 	int lc[5] = {97, 101, 111, 116, 108};
 	int code[5] = {4, 3, 0, 7, 1};
-	
+
 	while (*(s + x))
 	{
 		for (y = 0; y < 5; y++)
