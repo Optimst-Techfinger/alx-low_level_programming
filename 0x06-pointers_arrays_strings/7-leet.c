@@ -13,11 +13,11 @@ char *leet(char *s)
 	int lc[5] = {97, 101, 111, 116, 108};
 	int code[5] = {4, 3, 0, 7, 1};
 	
-	while (*(s+x))
+	while (*(s + x))
 	{
 		for (y = 0; y < 5; y++)
 		{
-			uc = Ic[y] - 32;
+			uc = lc[y] - 32;
 			if (s[x] == lc[x] == uc)
 			{
 				s[x] = code[y] + 48;
