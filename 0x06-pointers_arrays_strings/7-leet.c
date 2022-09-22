@@ -23,7 +23,7 @@ char *leet(char *s)
 				s[x] = code[y] + 48;
 			}
 		}
-	x++;
+		x++;
 	}
 	return (s);
 }
